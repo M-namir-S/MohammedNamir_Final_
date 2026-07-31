@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/arucop/arucop.egg-info
+writing ../build/arucop/arucop.egg-info/PKG-INFO
+writing dependency_links to ../build/arucop/arucop.egg-info/dependency_links.txt
+writing entry points to ../build/arucop/arucop.egg-info/entry_points.txt
+writing requirements to ../build/arucop/arucop.egg-info/requires.txt
+writing top-level names to ../build/arucop/arucop.egg-info/top_level.txt
+writing manifest file '../build/arucop/arucop.egg-info/SOURCES.txt'
+reading manifest file '../build/arucop/arucop.egg-info/SOURCES.txt'
+writing manifest file '../build/arucop/arucop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build
+creating /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib
+creating /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib/arucop
+copying arucop/__init__.py -> /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib/arucop
+copying arucop/aruco_follower.py -> /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib/arucop
+running install
+running install_lib
+creating /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop
+copying /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib/arucop/__init__.py -> /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop
+copying /home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/build/lib/arucop/aruco_follower.py -> /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop
+byte-compiling /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop/aruco_follower.py to aruco_follower.cpython-310.pyc
+running install_data
+creating /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/share/ament_index
+creating /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/share/ament_index/resource_index
+creating /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/share/ament_index/resource_index/packages
+copying resource/arucop -> /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/share/ament_index/resource_index/packages
+copying package.xml -> /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/share/arucop
+running install_egg_info
+Copying ../build/arucop/arucop.egg-info to /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/python3.10/site-packages/arucop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_follower script to /home/hp/MohammedNamir_Final_Test/q1/src/install/arucop/lib/arucop
+writing list of installed files to '/home/hp/MohammedNamir_Final_Test/q1/src/build/arucop/install.log'

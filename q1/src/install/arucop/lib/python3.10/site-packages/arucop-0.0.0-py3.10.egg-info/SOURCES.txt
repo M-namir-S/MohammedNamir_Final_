@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/arucop/arucop.egg-info/PKG-INFO
+../build/arucop/arucop.egg-info/SOURCES.txt
+../build/arucop/arucop.egg-info/dependency_links.txt
+../build/arucop/arucop.egg-info/entry_points.txt
+../build/arucop/arucop.egg-info/requires.txt
+../build/arucop/arucop.egg-info/top_level.txt
+../build/arucop/arucop.egg-info/zip-safe
+arucop/__init__.py
+arucop/aruco_follower.py
+resource/arucop
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_follower = arucop.aruco_follower:main
+
