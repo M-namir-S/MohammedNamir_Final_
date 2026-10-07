@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-ly = np.array([20, 100, 100])
-uy = np.array([30, 255, 255])
+ly = np.array([0,0,255])
+uy = np.array([0,0,128])
 
 cam = cv.VideoCapture(0)
 pcircle = None
@@ -15,9 +15,9 @@ while True:
 
     hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     
-    yellowconvert = cv.inRange(hsv, ly, uy)
+    blueconvert = cv.inRange(hsv, ly, uy)
     
-    blured = cv.GaussianBlur(yellowconvert, (17,17), 0)
+    blured = cv.GaussianBlur(blueconvert, (17,17), 0)
 
     circles = cv.HoughCircles(blured, cv.HOUGH_GRADIENT, 1.2, 100,
                               param1=100, param2=20, minRadius=75, maxRadius=400)
